@@ -1,9 +1,20 @@
+@media only screen and(max-width: 600px)
+[class="col-"] {
+
+}
+@media only screen and(max-width: 800px)
+[class="col-"] {}
  body {
     background-image: url(tech.jpg);
-    display: flex;
+    padding: auto;
+    
+ }
+.parent{
+  display: flex;
     width: max; 
     justify-content: space-evenly;
- }
+
+}
   .first{
     
     width: 50%;
